@@ -13,6 +13,6 @@ note over A: GPS integrado
 A->>B: Ender (look, useID)
 B->>BD: Buscar ruas e números UserID
 BD-->B: Endereços
-B->>B: Calcular Distância
+note over B: Calcular Distância
 B-->>A: Histórico, Distância
 A-->>U: Pesquisa novo endereço ou existente
