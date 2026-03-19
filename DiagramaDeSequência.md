@@ -15,4 +15,4 @@ U->>A: Informa endereço
 A->>P: Add Endereço a solicitação
 P->>E: Solicitação Concluída
 E-->>P: Criando Pacote
-P-->>A: Exibir tempo estimado para entrega
+P-->>A: Exibir tempo status do Pedido (tempo estimado para entrega)
